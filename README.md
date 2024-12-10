@@ -1,81 +1,109 @@
 
-# **Melodic Metrics: A Visual Journey Through Genres, Languages, and Popularity**
+# Spotify Data Visualization Project
 
-**By Anusha Shiva Kumar**
+### Syncing to the Beat: Visualizing Spotify’s Global Music Trends
 
----
-
-### **Introduction**
-
-In this report, we dive into the intricate dynamics of Spotify's music ecosystem. Through several interactive visualizations, we explore how language, genre, and record labels influence streaming behavior and popularity on the platform. These visualizations provide a detailed understanding of the various trends that shape Spotify's diverse music catalog, offering valuable insights into genre preferences, streaming patterns, and language diversity.
+This repository contains the Python code, dataset, and report for exploring Spotify's music ecosystem. The project provides a comprehensive analysis of global music trends through advanced visualizations and data analysis techniques.
 
 ---
 
-### **1. Exploring Genre-Label Connections in Spotify's Music Ecosystem:**
+## Project Overview
 
-**Description:**
+This project leverages Spotify's music catalog to analyze genre diversity, language trends, and record label dominance. The insights are presented through engaging visualizations to highlight global music trends over time.
 
-This chord diagram visualizes the relationships between the top five music genres and major record labels on Spotify. It illustrates the connections within Spotify’s music ecosystem, highlighting how genres like Pop, Hip-Hop, and Electronic are associated with leading labels such as Sony Music, Universal Music, and more. The thicker lines represent stronger connections, revealing how genres are distributed across various labels and the role labels play in defining genre popularity. This chart captures the diversity of genres and their associations with different labels in a simple yet engaging format.
-
-![Chord Diagram: Genre-Label Connections](file-path)  *(Insert your image here)*
-
----
-
-### **2. Distribution of Songs by Language:**
-
-**Description:**
-
-This treemap chart visualizes the distribution of songs on Spotify based on language. The chart clearly shows that English-language songs dominate Spotify's catalog, followed by languages such as German, Japanese, French, and Korean. The size of each section reflects the number of songs in each language, offering insights into Spotify's global reach. The use of color gradients provides additional context about the relative popularity of songs in each language, offering a simple but effective view of the diversity in Spotify’s music offerings.
-
-![Treemap: Distribution of Songs by Language](file-path)  *(Insert your image here)*
+### Key Highlights:
+1. **Global Music Trends Analysis**:
+   - Study of genre diversity and its impact on streaming numbers.
+   - Insights into how record labels shape genre popularity.
+2. **Effective Visualizations**:
+   - Treemaps, chord diagrams, pairplots, and heatmaps to explore complex relationships.
+3. **Accessible Insights**:
+   - Clear, interactive, and visually appealing designs that cater to diverse audiences.
 
 ---
 
-### **3. Pairplot: Exploring Music Features by Genre:**
+## Repository Structure
 
-**Description:**
-
-This pairplot examines key music features—streaming count, duration, and popularity—across three popular genres: Pop, Hip-Hop, and Classical. The diagonal kde plots show the distribution of each feature, while the scatter plots reveal the correlations and relationships between them. The color gradient helps to distinguish between genres, highlighting genre-specific patterns and how different genres perform across streaming metrics. The pairplot provides insights into the dynamics of these genres, making it easy to compare their characteristics in a visual format.
-
-![Pairplot: Music Features by Genre](file-path)  *(Insert your image here)*
-
----
-
-### **4. Polar Scatter Plot: Popularity vs Streams:**
-
-**Description:**
-
-This polar scatter plot visualizes the relationship between popularity and streams across different genres. Each point represents a song, with its angle reflecting the stream count and its distance from the center representing its popularity. The color coding distinguishes between genres, allowing us to identify how different genres perform based on these two critical metrics. This chart helps uncover trends in genre performance on Spotify, offering a visually appealing way to analyze streaming success.
-
-![Polar Scatter Plot: Popularity vs Streams](file-path)  *(Insert your image here)*
+```plaintext
+Spotify_Data_Visualization/
+│
+├── Information_Visualization_ans797.ipynb   # Jupyter notebook with Python code
+├── ans797_Final_Report.pdf                  # Final report summarizing findings
+├── README.md                                # Documentation (this file)
+```
 
 ---
 
-### **Conclusion:**
+## Data Source
 
-The visualizations presented in this report offer a deep dive into the diverse and dynamic nature of Spotify's music catalog. From understanding the connections between genres and record labels to analyzing how language impacts Spotify’s global reach, each chart provides valuable insights into music consumption patterns on the platform. The variety of charts used, including chord diagrams, treemaps, pairplots, and polar scatter plots, all work together to reveal the many dimensions of Spotify’s music ecosystem.
+The data used for this project is sourced from Kaggle:
 
-These analyses highlight the power of modern data visualization in making complex datasets more accessible and engaging, enabling us to uncover trends and relationships within Spotify's vast music catalog.
+- [Spotify Songs Dataset](https://www.kaggle.com/datasets/refiaozturk/spotify-songs-dataset)
 
----
-
-### **Data and Methodology:**
-
-- **Data Source**: The data used for these visualizations was sourced from Spotify’s public datasets, covering key music metrics such as genre, language, label, popularity, and streaming data.
-- **Tools Used**: The visualizations were created using Python, leveraging libraries such as Plotly and Seaborn to create interactive and static charts.
-- **Analysis Method**: The dataset was analyzed based on the distribution of songs across genres and languages, the relationships between labels and genres, and the correlations between various music features such as streams and popularity.
-
----
-
-### **GitHub and Google Colab Links:**
-
-- [GitHub Repository for the Project](GitHub-link)
-- [Google Colab Link for the Notebook](Google-Colab-link)
+The dataset contains information about:
+- Streaming counts
+- Song duration
+- Popularity
+- Genres
+- Language distribution
 
 ---
 
-### **Visualizations Included:**
-1. **Chord Diagram**: Visualizes genre-label connections and shows how different genres are associated with leading record labels.
-2. **Treemap**: Represents the distribution of Spotify songs by language.
-3. **Pairplot**: Shows the relationship between streaming count, duration, and popularity across genres.
-4. **Polar Scatter Plot**: Analyzes the relationship between popularity and streams, categorized by genre.
+## Visualizations
+
+This project features a variety of advanced visualizations, including:
+- **Chord Diagram**: Exploring relationships between genres and record labels.
+- **Treemap**: Visualizing the distribution of languages in Spotify's catalog.
+- **Heatmap**: Trends in genre popularity over decades.
+- **Pairplot**: Examining relationships between song popularity, duration, and streams.
+- **Grouped Bar Charts**: Decade-wise popularity trends.
+
+---
+
+## How to Use the Repository
+
+### Steps to Run the Code
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/AnushaShivakumar/Spotify_Data_Visualization.git
+   cd Spotify_Data_Visualization
+   ```
+2. Open the notebook in Jupyter or Google Colab:
+   - [Google Colab Link](https://colab.research.google.com/drive/1xrZHyyVyIHgZCC7W9VIHfc686Vr_64lY?usp=sharing)
+3. Download the dataset from Kaggle and place it in the appropriate directory (`data/`).
+
+---
+
+## Report
+
+The final report (`ans797_Final_Report.pdf`) summarizes:
+- Analysis of genre trends, language diversity, and record label impacts.
+- Visualizations showcasing Spotify's music trends over time.
+- Key insights into global music consumption patterns.
+
+---
+
+## Links
+
+- **GitHub Repository**: [Spotify Data Visualization](https://github.com/AnushaShivakumar/Spotify_Data_Visualization)
+- **Google Colab Notebook**: [Colab Link](https://colab.research.google.com/drive/1xrZHyyVyIHgZCC7W9VIHfc686Vr_64lY?usp=sharing)
+- **Dataset**: [Kaggle - 50K Songs Dataset - Generated by AI](https://www.kaggle.com/datasets/refiaozturk/spotify-songs-dataset)
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Acknowledgments
+
+- Data Source: Kaggle
+- Tools: Python, Matplotlib, Plotly, Pandas, Seaborn
+- Inspiration: Spotify's global music trends
+
+---
+
+Feel free to refine it further based on your needs!
+```
