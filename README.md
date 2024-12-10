@@ -104,6 +104,3 @@ This project is licensed under the MIT License.
 - Inspiration: Spotify's global music trends
 
 ---
-
-Feel free to refine it further based on your needs!
-```
